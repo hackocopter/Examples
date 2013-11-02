@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\hackopter\Examples\Blinky-Keil\GPIO.uvproj
+Project File Date:  12/21/2011
+
+<h2>Output:</h2>
+Build target 'GPIO'
+compiling GPIO_Demo.c...
+compiling common.c...
+linking...
+Program Size: Code=524 RO-data=208 RW-data=0 ZI-data=1120  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin ".\output\GPIO.axf" --output ".\output\GPIO.bin"
+After Build - User command #2: fromelf --text -c ".\output\GPIO.axf" --output ".\output\GPIO.txt"
+".\Output\GPIO.axf" - 0 Error(s), 0 Warning(s).
+Clean started: Project: 'GPIO'
+   deleting intermediate output files for target 'GPIO'
+ or type specifier
+                                TMR0_Delay1ms(250);
+Source\GPIO_Demo.c(79): error:  #147: declaration is incompatible with "void TMR0_Delay1ms(uint32_t)" (declared at line 31)
+                                TMR0_Delay1ms(250);
+Source\GPIO_Demo.c(81): error:  #40: expected an identifier
+          P0_DOUT |=  DMASK0;                                    // P0.0 = 1 (LED off)
+Source\GPIO_Demo.c(81): error:  #79: expected a type specifier
+          P0_DOUT |=  DMASK0;                                    // P0.0 = 1 (LED off)
+Source\GPIO_Demo.c(81): error:  #141-D: unnamed prototyped parameters not allowed when body is present
+          P0_DOUT |=  DMASK0;                                    // P0.0 = 1 (LED off)
+Source\GPIO_Demo.c(81): error:  #130: expected a "{"
+          P0_DOUT |=  DMASK0;                                    // P0.0 = 1 (LED off)
+Source\GPIO_Demo.c(84): error:  #169: expected a declaration
+  }
+Source\GPIO_Demo.c: 2 warnings, 8 errors
+compiling common.c...
+assembling startup_M051.s...
+".\Output\GPIO.axf" - 8 Error(s), 2 Warning(s).
+Target not created
