@@ -15,11 +15,6 @@
 
 #include "Common.h"
 
-#define P0_MODE               0x5555
-#define P1_MODE               0x5555
-#define P2_MODE               0x5555
-#define P3_MODE	              0x5555
-
 void TMR0_Delay1ms(uint32_t ulCNT);
 void Timer0_Init(void);
 
