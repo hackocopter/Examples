@@ -11,6 +11,6 @@ v0.1 cpldcpu, Nov 2nd, 2013
 This is based on the GPIO example by Nuvoton
 		
 Changes: 
-	- Only blink P0.0
-	- Use internal RC oscillator instead of external XTAL.
+ * Only blink P0.0
+ * Use internal RC oscillator instead of external XTAL.
 
