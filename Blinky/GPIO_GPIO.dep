@@ -1,0 +1,13 @@
+Dependencies for Project 'GPIO', Target 'GPIO': (DO NOT MODIFY !)
+F (.\Source\GPIO_Demo.c)(0x5275F906)(-c --cpu Cortex-M0 -D__EVAL -g -O2 --apcs=interwork -I.\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-o .\output\gpio_demo.o --omf_browse .\output\gpio_demo.crf --depend .\output\gpio_demo.d)
+I (D:\hackocopter\Examples\Blinky\Include\Common.h)(0x5275F906)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7FD94)
+I (D:\hackocopter\Examples\Blinky\Include\M051.h)(0x5275F906)
+I (D:\hackocopter\Examples\Blinky\Include\Register_Bit.h)(0x5275F906)
+I (D:\hackocopter\Examples\Blinky\Include\Uart.h)(0x5275F906)
+F (.\Common\common.c)(0x5275F906)(-c --cpu Cortex-M0 -D__EVAL -g -O2 --apcs=interwork -I.\Include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include-o .\output\common.o --omf_browse .\output\common.crf --depend .\output\common.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (D:\hackocopter\Examples\Blinky\Include\M051.h)(0x5275F906)
+I (D:\hackocopter\Examples\Blinky\Include\Register_Bit.h)(0x5275F906)
+F (.\Common\startup_M051.s)(0x5275F906)(--cpu Cortex-M0 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include--list .\listing\startup_m051.lst --xref -o .\output\startup_m051.o --depend .\output\startup_m051.d)
