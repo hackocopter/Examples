@@ -49,8 +49,13 @@ void SYS_Init(void)
 /* Init I/O Multi-function                                                                                 */
 /*---------------------------------------------------------------------------------------------------------*/
     /* Set P0 multi-function pins for UART RXD and TXD */
-    SYS->P0_MFP &= ~(SYS_MFP_P01_Msk | SYS_MFP_P00_Msk);
-    SYS->P0_MFP |= (SYS_MFP_P01_RXD | SYS_MFP_P00_TXD);  
+//    SYS->P0_MFP &= ~(SYS_MFP_P01_Msk | SYS_MFP_P00_Msk);
+//    SYS->P0_MFP |= (SYS_MFP_P01_RXD | SYS_MFP_P00_TXD);  
+
+// Move UART to P12 and P13
+
+    SYS->P1_MFP &= ~(SYS_MFP_P12_Msk | SYS_MFP_P13_Msk);
+    SYS->P1_MFP |= (SYS_MFP_P12_RXD | SYS_MFP_P13_TXD);  
 
     /* To update the variable SystemCoreClock */   
 	 // SystemCoreClockUpdate();         
