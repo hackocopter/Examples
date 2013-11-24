@@ -4,7 +4,7 @@ Blinky-CMSIS
 Example code for a JX 185/385 compatible Quadcopter.
 
 Blinks the integrated Blue LEDs on the quadcopter and sends "Hello World"
-to the serial interface.
+to the serial interface at 115200 baud.
 
 Retargeted from the "Mini51\LED" example from Nuvotons v3.00 sample code. 
 	
